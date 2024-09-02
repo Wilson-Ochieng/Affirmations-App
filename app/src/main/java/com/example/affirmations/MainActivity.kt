@@ -18,11 +18,14 @@ package com.example.affirmations
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.example.affirmations.model.Affirmation
 import com.example.affirmations.ui.theme.AffirmationsTheme
 
 class MainActivity : ComponentActivity() {
@@ -45,4 +48,18 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun AffirmationsApp() {
+}
+
+@Composable
+
+fun MyAffirmationCard(affirmation: Affirmation){
+
+    Card {
+        Column {
+
+        }
+    }
+
+
+
 }
